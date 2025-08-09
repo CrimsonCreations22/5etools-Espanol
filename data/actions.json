@@ -1,7 +1,7 @@
 {
 	"action": [
 		{
-			"name": "Activate an Item",
+			"name": "Activar un Item",
 			"source": "DMG",
 			"page": 141,
 			"srd": true,
@@ -9,12 +9,12 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "action"
+					"unit": "acción"
 				}
 			],
 			"entries": [
-				"Activating some magic items requires a user to do something in particular, such as holding the item and uttering a command word, reading the item if it is a scroll, or drinking it if it is a potion. The description of each item category or individual item details how an item is activated. Certain items use one or more of the following rules related to their activation.",
-				"If an item requires an action to activate, that action isn't a function of the {@action Use an Object} action, so a feature such as the rogue's {@subclassFeature Fast Hands|Rogue||Thief||3} can't be used to activate the item.",
+				"Para activar algunos objetos mágicos, el usuario debe realizar una acción específica, como sostener el objeto y pronunciar una palabra de comando, leerlo si es un pergamino o beberlo si es una poción. La descripción de cada categoría o objeto individual detalla cómo se activa. Algunos objetos utilizan una o más de las siguientes reglas para su activación.",
+				"Si un objeto requiere una acción para activarse, esa acción no es una función de la acción {@action Use an Object}, por lo que una característica como {@subclassFeature Fast Hands|Rogue||Thief||3} del pícaro no se puede usar para activar el objeto.",
 				{
 					"type": "entries",
 					"name": "Command Word",
